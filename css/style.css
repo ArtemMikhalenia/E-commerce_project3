@@ -713,13 +713,9 @@ footer .about-company p a {
 footer .footer-top .first-item,
 footer .footer-top .second-item,
 footer .footer-top .third-item,
-footer .footer-top .fourth-item {
-   animation: slideInLeft;
-   animation-duration: 1s;
-}
-
+footer .footer-top .fourth-item,
 footer .about-company p {
-   animation: backInDown;
+   animation: slideInLeft;
    animation-duration: 1s;
 }
 
@@ -1071,11 +1067,6 @@ footer .about-company p {
 
    footer .footer-top>div .footer-col-descr .desktop-active {
       display: none;
-   }
-
-   footer .about-company p {
-      animation: slideInLeft;
-      animation-duration: 1s;
    }
 }
 
