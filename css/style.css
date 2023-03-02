@@ -475,7 +475,7 @@ a {
    flex-direction: column;
    max-width: 226px;
    width: 100%;
-   
+
 }
 
 .review-item span {
@@ -521,6 +521,7 @@ a {
    background: url('../images/review/review04.png') center center no-repeat;
    background-size: 463px;
 }
+
 /*<INSTAGRAM>--------------------------------------------------------*/
 
 .instagram {
@@ -866,7 +867,7 @@ footer .about-company p a {
    }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
 
    .instagram1 {
       animation-delay: 0s;
