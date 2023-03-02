@@ -1073,10 +1073,6 @@ footer .about-company p {
       display: none;
    }
 
-   footer .footer-top .first-item,
-   footer .footer-top .second-item,
-   footer .footer-top .third-item,
-   footer .footer-top .fourth-item,
    footer .about-company p {
       animation: slideInLeft;
       animation-duration: 1s;
