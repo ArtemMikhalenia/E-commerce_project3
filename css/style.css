@@ -475,6 +475,7 @@ a {
    flex-direction: column;
    max-width: 226px;
    width: 100%;
+   
 }
 
 .review-item span {
@@ -520,7 +521,6 @@ a {
    background: url('../images/review/review04.png') center center no-repeat;
    background-size: 463px;
 }
-
 /*<INSTAGRAM>--------------------------------------------------------*/
 
 .instagram {
@@ -866,6 +866,67 @@ footer .about-company p a {
    }
 }
 
+@media screen and (min-width: 600px) {
+
+   .instagram1 {
+      animation-delay: 0s;
+   }
+
+   .instagram2 {
+      animation-delay: 0.2s;
+   }
+
+   .instagram3 {
+      animation-delay: 0.4s;
+   }
+
+   .instagram4 {
+      animation-delay: 0.6s;
+   }
+
+   .instagram5 {
+      animation-delay: 0.8s;
+   }
+
+   .instagram6 {
+      animation-delay: 1s;
+   }
+
+   .instagram7 {
+      animation-delay: 1.2s;
+   }
+
+   .instagram8 {
+      animation-delay: 1.4s;
+   }
+
+   .instagram9 {
+      animation-delay: 1.6s;
+   }
+
+   .instagram10 {
+      animation-delay: 1.8s;
+   }
+
+   footer .footer-top .first-item,
+   footer .footer-top .second-item {
+      animation: slideInLeft;
+      animation-duration: 1s;
+   }
+
+   footer .footer-top .third-item,
+   footer .footer-top .fourth-item {
+      animation: slideInRight;
+      animation-duration: 1s;
+   }
+
+   footer .about-company p {
+      animation: backInDown;
+      animation-duration: 1s;
+   }
+
+}
+
 @media screen and (max-width: 600px) {
    .center {
       width: calc(100% - 40px);
@@ -1012,6 +1073,15 @@ footer .about-company p a {
 
    footer .footer-top>div .footer-col-descr .desktop-active {
       display: none;
+   }
+
+   footer .footer-top .first-item,
+   footer .footer-top .second-item,
+   footer .footer-top .third-item,
+   footer .footer-top .fourth-item,
+   footer .about-company p {
+      animation: slideInLeft;
+      animation-duration: 1s;
    }
 }
 
