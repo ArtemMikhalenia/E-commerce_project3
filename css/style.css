@@ -709,6 +709,20 @@ footer .about-company p a {
    color: rgba(255, 255, 255, 1);
 }
 
+
+footer .footer-top .first-item,
+footer .footer-top .second-item,
+footer .footer-top .third-item,
+footer .footer-top .fourth-item {
+   animation: slideInLeft;
+   animation-duration: 1s;
+}
+
+footer .about-company p {
+   animation: backInDown;
+   animation-duration: 1s;
+}
+
 /*<MEDIA>--------------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
@@ -867,7 +881,7 @@ footer .about-company p a {
    }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
 
    .instagram1 {
       animation-delay: 0s;
@@ -907,23 +921,6 @@ footer .about-company p a {
 
    .instagram10 {
       animation-delay: 1.8s;
-   }
-
-   footer .footer-top .first-item,
-   footer .footer-top .second-item {
-      animation: slideInLeft;
-      animation-duration: 1s;
-   }
-
-   footer .footer-top .third-item,
-   footer .footer-top .fourth-item {
-      animation: slideInRight;
-      animation-duration: 1s;
-   }
-
-   footer .about-company p {
-      animation: backInDown;
-      animation-duration: 1s;
    }
 
 }
