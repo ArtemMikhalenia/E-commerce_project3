@@ -9,6 +9,7 @@ wow.init(); /* Инициализация плагина с установлен
 
 var swiper = new Swiper(".mySwiper", {
   loop: true,
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",

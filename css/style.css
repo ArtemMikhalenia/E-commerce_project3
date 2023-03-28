@@ -173,6 +173,7 @@ a {
    bottom: 0;
    background-repeat: no-repeat;
    z-index: 11;
+   cursor: pointer;
 }
 
 .first-container .swiper .s-button-prev {
