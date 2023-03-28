@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper", {
     type: "fraction",
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".s-button-next",
+    prevEl: ".s-button-prev",
   },
 });
