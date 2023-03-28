@@ -1067,7 +1067,7 @@ footer .about-company p {
 
    footer .footer-top>div .footer-col-descr .desktop-active {
       display: none;
-   } 
+   }
 }
 
 @media screen and (max-width: 425px) {
